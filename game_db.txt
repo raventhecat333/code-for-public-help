@@ -1,0 +1,137 @@
+﻿#ゲームDB  utf-8
+
+
+###### リズムゲーム関連１
+#１周の小節数(デフォルト4.0)
+circle.setting.cycle=4.0
+#円出現までの猶予(デフォルト1.0小節)
+circle.setting.delay=1.0
+
+###### リズムゲーム関連２
+#入力の判定補正時間(デフォルト-0.034秒) マイナスは押し遅れを許容  1/30秒=0.034
+circle.judge.input_revise=-0.051
+#BAD時の開口部の削り量(デフォルト0.06秒)  judge.range_okに加算される。２回削れてjudge.range_badと一致させること
+circle.judge.cut=0.06
+#COOL判定範囲(デフォルト±0.07秒)   ※DIVAはCOOL=0.03 FINE=0.07 SAFE=0.10 SAD=0.13
+circle.judge.range_cool=0.06
+#OK判定範囲(デフォルト±0.13秒)　これが開口部の広さ
+circle.judge.range_ok=0.12
+#BAD判定(入力受付)範囲(デフォルト±0.25秒)
+circle.judge.range_bad=0.24
+
+
+###### リズムゲームSEアサイン
+############
+# SE SET01 #
+############
+circle.se1.cool=WSD_HIT_73
+circle.se1.ok=WSD_HIT_66
+circle.se1.bad=WSD_BAD_01
+circle.se1.break=WSD_HIT_SCRAPE_01
+circle.se1.sp=WSD_HIT_70
+circle.se1.bonus=WSD_HIT_73
+circle.se1.miss=WSD_MISS_A_04
+circle.se1.push=WSD_MISS_A_03
+circle.se1.hold_on=WSD_LONGPUSH_ON_01
+circle.se1.hold_off=WSD_LONGPUSH_OFF_01
+############
+# SE SET02 #
+############
+circle.se2.cool=WSD_HIT_76
+circle.se2.ok=WSD_HIT_75
+circle.se2.bad=WSD_BAD_02
+circle.se2.break=WSD_HIT_SCRAPE_01
+circle.se2.sp=WSD_HIT_77
+circle.se2.bonus=WSD_HIT_76
+circle.se2.miss=WSD_MISS_C_02
+circle.se2.push=WSD_MISS_C_01
+circle.se2.hold_on=WSD_LONGPUSH_ON_05
+circle.se2.hold_off=WSD_LONGPUSH_OFF_05
+############
+# SE SET03 #
+############
+circle.se3.cool=WSD_HIT_79
+circle.se3.ok=WSD_HIT_78
+circle.se3.bad=WSD_BAD_03
+circle.se3.break=WSD_HIT_SCRAPE_01
+circle.se3.sp=WSD_HIT_80
+circle.se3.bonus=WSD_HIT_79
+circle.se3.miss=WSD_MISS_C_04
+circle.se3.push=WSD_MISS_C_03
+circle.se3.hold_on=WSD_LONGPUSH_ON_06
+circle.se3.hold_off=WSD_LONGPUSH_OFF_06
+############
+# SE SET04 #
+############
+circle.se4.cool=WSD_HIT_82
+circle.se4.ok=WSD_HIT_81
+circle.se4.bad=WSD_BAD_04
+circle.se4.break=WSD_HIT_SCRAPE_01
+circle.se4.sp=WSD_HIT_83
+circle.se4.bonus=WSD_HIT_82
+circle.se4.miss=WSD_MISS_C_06
+circle.se4.push=WSD_MISS_C_05
+circle.se4.hold_on=WSD_LONGPUSH_ON_07
+circle.se4.hold_off=WSD_LONGPUSH_OFF_07
+
+
+###### セーブデータ初期値
+savedata.header=0x20111114
+savedata.mirai_point=0
+savedata.argame_win=0
+savedata.chara=MIK
+savedata.costume=1
+savedata.face=1
+savedata.comment=1
+savedata.myroom=0
+savedata.myroom_camera=1
+savedata.myroom_item=0
+savedata.ngc_ver=0
+savedata.ng=0
+savedata.pv_dimmer=0
+savedata.pv001.open=1
+savedata.pv011.open=1
+
+
+##### PV解禁順序
+# Aライン
+pv_order_A.01=1
+pv_order_A.02=28
+pv_order_A.03=24
+pv_order_A.04=23
+pv_order_A.05=4
+pv_order_A.06=27
+pv_order_A.07=26
+pv_order_A.08=25
+pv_order_A.09=2
+pv_order_A.10=3
+pv_order_A.11=21
+# Bライン
+pv_order_B.01=11
+pv_order_B.02=12
+pv_order_B.03=32
+pv_order_B.04=14
+pv_order_B.05=16
+pv_order_B.06=15
+pv_order_B.07=13
+pv_order_B.08=31
+
+
+
+###### その他
+#VIEWERの制限解除   0=制限なし(アンチ有、PV視聴時の負荷無)
+etc.viewer_limit=1
+#体験版フラグ     1>=体験版
+etc.trial_version=0
+#メディア用曲制限バージョン(game_dbでopen指定した曲しかでない) 2=ムービー無
+etc.pv_closed_version=0
+
+#PV負荷チェックテスト
+pv_test.pv=0
+pv_test.vocal=1
+pv_test.costume1P=0
+pv_test.costume2P=0
+pv_test.face1P=0
+pv_test.face2P=0
+pv_test.load_threshold=100
+pv_test.difficulty=2

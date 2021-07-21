@@ -1,0 +1,120 @@
+#スコアDB  utf-8
+
+#レベルベース初期値
+level_base.default_lv=1
+#レベルベース閾値
+level_base.threshold.lv0=0
+level_base.threshold.danger=200
+level_base.threshold.lv1=200
+level_base.threshold.lv2=400
+level_base.threshold.lv3=600
+level_base.threshold.lv4=800
+level_base.threshold.lv5=1000
+# レベルベース増減値 easy
+level_base.val.easy.cool.lv0=50
+level_base.val.easy.ok.lv0=25
+level_base.val.easy.bad.lv0=0
+level_base.val.easy.miss.lv0=-25
+level_base.val.easy.cool.lv1=40
+level_base.val.easy.ok.lv1=20
+level_base.val.easy.bad.lv1=0
+level_base.val.easy.miss.lv1=-50
+level_base.val.easy.cool.lv2=30
+level_base.val.easy.ok.lv2=15
+level_base.val.easy.bad.lv2=0
+level_base.val.easy.miss.lv2=-50
+level_base.val.easy.cool.lv3=30
+level_base.val.easy.ok.lv3=15
+level_base.val.easy.bad.lv3=0
+level_base.val.easy.miss.lv3=-50
+level_base.val.easy.cool.lv4=20
+level_base.val.easy.ok.lv4=10
+level_base.val.easy.bad.lv4=0
+level_base.val.easy.miss.lv4=-50
+# レベルベース増減値 normal
+level_base.val.normal.cool.lv0=40
+level_base.val.normal.ok.lv0=20
+level_base.val.normal.bad.lv0=-10
+level_base.val.normal.miss.lv0=-100
+level_base.val.normal.cool.lv1=40
+level_base.val.normal.ok.lv1=20
+level_base.val.normal.bad.lv1=-10
+level_base.val.normal.miss.lv1=-100
+level_base.val.normal.cool.lv2=30
+level_base.val.normal.ok.lv2=15
+level_base.val.normal.bad.lv2=-10
+level_base.val.normal.miss.lv2=-100
+level_base.val.normal.cool.lv3=30
+level_base.val.normal.ok.lv3=15
+level_base.val.normal.bad.lv3=-10
+level_base.val.normal.miss.lv3=-100
+level_base.val.normal.cool.lv4=20
+level_base.val.normal.ok.lv4=10
+level_base.val.normal.bad.lv4=-10
+level_base.val.normal.miss.lv4=-100
+# レベルベース増減値 hard
+level_base.val.hard.cool.lv0=40
+level_base.val.hard.ok.lv0=8
+level_base.val.hard.bad.lv0=-20
+level_base.val.hard.miss.lv0=-200
+level_base.val.hard.cool.lv1=40
+level_base.val.hard.ok.lv1=8
+level_base.val.hard.bad.lv1=-20
+level_base.val.hard.miss.lv1=-200
+level_base.val.hard.cool.lv2=30
+level_base.val.hard.ok.lv2=6
+level_base.val.hard.bad.lv2=-20
+level_base.val.hard.miss.lv2=-200
+level_base.val.hard.cool.lv3=30
+level_base.val.hard.ok.lv3=6
+level_base.val.hard.bad.lv3=-20
+level_base.val.hard.miss.lv3=-200
+level_base.val.hard.cool.lv4=20
+level_base.val.hard.ok.lv4=4
+level_base.val.hard.bad.lv4=-20
+level_base.val.hard.miss.lv4=-200
+
+
+#スコア素点 easy
+score.base.easy.cool=50
+score.base.easy.ok=20
+score.base.easy.bad=10
+score.base.easy.miss=0
+#スコア素点 normal
+score.base.normal.cool=100
+score.base.normal.ok=50
+score.base.normal.bad=10
+score.base.normal.miss=0
+#スコア素点 hard
+score.base.hard.cool=150
+score.base.hard.ok=20
+score.base.hard.bad=0
+score.base.hard.miss=0
+
+
+# 以下未使用
+# レベル倍率 easy
+score.scale.easy.lv0=1.0
+score.scale.easy.lv1=1.0
+score.scale.easy.lv2=1.5
+score.scale.easy.lv3=2.0
+score.scale.easy.lv4=2.5
+score.scale.easy.lv5=3.0
+# レベル倍率 normal
+score.scale.normal.lv0=0.5
+score.scale.normal.lv1=1.0
+score.scale.normal.lv2=1.5
+score.scale.normal.lv3=2.0
+score.scale.normal.lv4=2.5
+score.scale.normal.lv5=3.0
+# レベル倍率 hard
+score.scale.hard.lv0=0.5
+score.scale.hard.lv1=1.0
+score.scale.hard.lv2=1.0
+score.scale.hard.lv3=1.5
+score.scale.hard.lv4=1.5
+score.scale.hard.lv5=5.0
+# SPマーカー倍率
+score.sp_scale.easy=5.0
+score.sp_scale.normal=5.0
+score.sp_scale.hard=10.0
